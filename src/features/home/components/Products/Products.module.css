@@ -1,0 +1,31 @@
+.product_search {
+  margin-bottom: 15px;
+}
+
+.card_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px 24px;
+}
+
+.page_title {
+  margin-bottom: 30px;
+}
+
+.paginatoin_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 960px) {
+  .card_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

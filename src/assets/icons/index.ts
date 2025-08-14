@@ -1,0 +1,9 @@
+export { default as Search } from "./search.svg";
+export { default as MenuIcon } from "./menu.svg";
+export { default as EyeIcon } from "./eye.svg";
+export { default as HeartIcon } from "./heart.svg";
+export { default as UserIcon } from "./user-icon.svg";
+export { default as MenuCloseIcon } from "./menu-clouse-icon.svg";
+export { default as ArrowRighDetail } from "./arrow-right-2.svg";
+export { default as searchBarBlackIcon } from "./searchBarBlackIcon.svg";
+export { default as RedHeartIcon } from "./red-heart.svg";

@@ -1,0 +1,144 @@
+.lenguage_btn_list {
+    list-style: none;
+    display: none;
+    justify-content: space-between;
+    padding: 6px 0;
+}
+
+.lenguage_btn_link {
+    display: block;
+    width: 100%;
+    min-width: 100px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: #4A4B9B;
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .3s linear;
+}
+
+.lenguage_btn_link:hover {
+    background: rgba(66, 87, 207, 0.9);
+    color: #FFF;
+}
+
+.btn {
+    padding: 0 !important;
+    padding-top: 4px !important;
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    display: block;
+    padding: 10px 0;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all .3s linear;
+}
+
+.link:hover {
+    color: #322E84;
+    transition: all .3s linear;
+}
+
+.login_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  gap: 10px;
+}
+
+.login_btn,
+.signup_btn {
+    display: inline-block;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.login_btn {
+    color: #322E84;
+}
+
+.login_text {
+    display: inline-block;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.signup_btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: linear-gradient(270deg, #322E84 0%, #6463A3 100%);
+    color: #FFF;
+    transition: all .3s linear;
+}
+
+.signup_btn:hover {
+    transform: scale(1.05);
+    transition: all .3s linear;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 0;
+}
+
+.user_image {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.content_title {
+    margin-bottom: 5px;
+    color: #000;
+    font-size: 16px;
+}
+
+.content_text {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .5;
+}
+
+@media (max-width:576px) {
+    .lenguage_btn_list {
+        display: flex;
+    }
+
+    .link {
+        font-size: 16px;
+    }
+
+    .login_btn,
+    .signup_btn {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:383px) {
+    .lenguage_btn_link {
+        min-width: 77px;
+    }
+}

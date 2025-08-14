@@ -1,0 +1,18 @@
+.breadcrumb {
+    padding: 30px 0px;
+    overflow-x: auto;
+}
+
+.breadcrumb::-webkit-scrollbar {
+  display: none;
+}
+
+.breadcrumb_inner {
+    width: max-content;
+}
+
+@media (max-width:576px) {
+    .breadcrumb {
+        padding: 20px 0px;
+    }
+}

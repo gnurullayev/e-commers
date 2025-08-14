@@ -1,0 +1,165 @@
+.language_container {
+    position: relative;
+    z-index: 99;
+}
+
+.language_btn {
+    display: flex;
+    align-items: center;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.flag_img_lg {
+    position: relative;
+    width: 40px;
+    height: 24px;
+}
+
+.flag_img_sm {
+    position: relative;
+    width: 25px;
+    height: 14px;
+}
+
+.language_btn_sm {
+    gap: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+.language_btn_lg {
+    font-size: 20px;
+    color: #000;
+}
+
+.language_btn_lg span {
+    display: inline-block;
+    padding: 10px;
+}
+
+.language_item span {
+    display: inline-block;
+}
+
+
+.language_item_lg span {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.language_item_sm span {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.language_list {
+    position: absolute;
+    left: -10px;
+    background-color: #fff;
+    border-radius: 8px;
+    list-style: none;
+    border: 0.5px solid #D9D9D9;
+}
+
+.language_list_lg {
+    padding: 0 10px;
+}
+
+.language_list_sm {
+    padding: 0 6px;
+    top: 20px;
+
+}
+
+.language_item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media (max-width:960px) {
+    .language_btn_sm {
+        color: #fff;
+    }
+
+    .language_list_lg {
+        padding: 10px;
+    }
+}
+
+
+@media (max-width:400px) {
+
+    .language_btn_lg {
+        font-size: 14px;
+        color: #000;
+    }
+    
+    .language_btn_lg span {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .language_item_lg span {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .flag_img_lg {
+        width: 25px;
+        height: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.language_container {
+    position: relative;
+    z-index: 9999;
+}
+
+.language_btn {
+    display: flex;
+    align-items: center;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+   
+}
+
+.language_item span {
+    display: inline-block;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.language_list {
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 0 6px;
+    list-style: none;
+    border: 0.5px solid #D9D9D9;
+}
+
+.language_item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+} */

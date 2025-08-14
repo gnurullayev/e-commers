@@ -1,0 +1,23 @@
+.order_summary {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header_signup {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 10px;
+  background: linear-gradient(270deg, #322e84 0%, #6463a3 100%);
+  text-decoration: none;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  text-align: center;
+}
+
+.header_signup:hover {
+  transform: scale(1.04);
+}

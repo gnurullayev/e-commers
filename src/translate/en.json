@@ -1,0 +1,77 @@
+{
+ "Header": {
+    "search": "Search"
+  },
+  "Profile": {
+    "settings": "Settings"
+  },
+  "Auth": {
+    "login": "Enter",
+    "enter-data": "Enter your details",
+    "enter-password": "Enter a password",
+    "forgot-password": "Forgot password?",
+    "new-account": "Don't have an account?",
+    "sign-up": "Sign up",
+    "reset-password": "Password reset",
+    "email": "Email",
+    "new-password": "New Password",
+    "repeat-password": "Repeat the password",
+    "password-validate": "No less than 8 characters",
+    "one-big-latter": "Must have at least one capital letter",
+    "continue": "Continue",
+    "password": "Password",
+    "enter-email": "Enter Email",
+    "create-account": "Enter your email to create an account",
+    "im": "I agree",
+    "usage": "to the terms of use",
+    "goback": "Go back",
+    "terms": "Terms of use",
+    "name": "Name *",
+    "surname": "Surname *",
+    "midlename": "Middle name",
+    "date-birth": "Date of birth *",
+    "address": "Your address",
+    "province": "Province",
+    "city": "City",
+    "job": "Your profession",
+    "education-level": "Your education level",
+    "save": "Save",
+    "entiring": "Kiriting",
+    "role": "Personality type *"
+  },
+  "SuccessMessage": {
+    "send-data": "Your data sent",
+    "image-uploaded": "Image uploaded"
+  },
+  "InputError": {
+    "empty-input": "Did not enter information"
+  },
+  "Breadcrumb": {
+    "home": "Main",
+    "products": "Products",
+    "cart":"Cart"
+  },
+  "NotFoundPage": {
+    "metaTitleError": "Page not found",
+    "errorStatus": "Oops! page not found",
+    "errorText": "Dear user, Unfortunately, the page you were looking for was not found. This can happen for various reasons: The address may have been entered incorrectly: Check the address bar for any errors. Page Moved or Removed: Our site is constantly being updated and some pages may be moved or removed. Temporary problem: There may be a temporary problem with your Internet connection or with our servers."
+  },
+  "ServerError": {
+    "errorText": "Oops! Something went wrong. There is a problem with server :(",
+    "metaTitleError": "server xatoligi"
+  },
+  "ProductPage": {
+    "title": "Products",
+    "notFoundProducts":"Mahsulot mavjud emas"
+  },
+  "SearchProducts":{
+    "searchByName":"Nomi",
+    "searchByCategory":"Kategoriyasi",
+    "search":"Qidirish"
+  },
+  "Card": {
+    "detail-link": "More",
+    "add-to-cart":"Add to cart"
+  },
+  "log-out": "Log out"
+}

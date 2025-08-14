@@ -1,0 +1,79 @@
+{
+  "Header": {
+    "search": "Qidirish"
+  },
+  "Profile": {
+    "settings": "Sozlamalar",
+    "rezume": "Rezyume"
+  },
+  "Auth": {
+    "login": "Kirish",
+    "enter-data": "Ma'lumotlaringizni kiriting",
+    "enter-password": "Parol kiriting",
+    "forgot-password": "Parolni unutdingizmi?",
+    "new-account": "Akkauntingiz yo'qmi?",
+    "sign-up": "Ro'yxatdan o'tish",
+    "reset-password": "Parolni tiklash",
+    "email": "E-mail",
+    "new-password": "Yangi parol",
+    "repeat-password": "Parolni takrorlang",
+    "password-validate": "8 ta simvoldan kam bo'lmasin",
+    "one-big-latter": "eng kamida Bitta katta harf bo'lishi shart",
+    "continue": "Davom etish",
+    "password": "Parol",
+    "enter-email": "Email kiriting",
+    "create-account": "Akkaunt yaratish uchun email pochtangizni kiriting",
+    "im": "Men",
+    "usage": "foydalanish shartlariga rozilik beraman",
+    "goback": "Orqaga qaytish",
+    "terms": "Foydalanish shartlari",
+    "name": "Ism *",
+    "surname": "Familya *",
+    "midlename": "Sharif",
+    "date-birth": "Tug'ilgan sana *",
+    "address": "Yashash manzilingiz",
+    "province": "Viloyat",
+    "city": "Shahar",
+    "job": "Kasbingiz",
+    "education-level": "Ta'lim darajangiz",
+    "save": "Saqlash",
+    "entiring": "Kiriting",
+    "role": "Shaxs turi *"
+  },
+  "SuccessMessage": {
+    "send-data": "Ma'lumotlaringiz yuborildi",
+    "image-uploaded": "Rasim yuklandi"
+  },
+  "InputError": {
+    "empty-input": "Ma'lumot kiritmadingz"
+  },
+  "Breadcrumb": {
+    "home": "Asosiy",
+    "account": "Shaxsiy kabinet",
+    "products": "Mahsulotlar",
+    "cart":"Savat"
+  },
+  "NotFoundPage": {
+    "metaTitleError": "Sahifa topilmadi",
+    "errorStatus": "Oops! page not found",
+    "errorText": "Hurmatli foydalanuvchi, Afsuski, siz qidirgan sahifa topilmadi. Bu turli sabablarga ko'ra sodir bo'lishi mumkin: Manzil noto'g'ri kiritilgan bo'lishi mumkin: Manzil satrida biror xatolik bor-yo'qligini tekshiring. Sahifa ko'chirilgan yoki o'chirilgan: Bizning saytimiz yangilanib turadi va ba'zi sahifalar ko'chirilishi yoki o'chirilishi mumkin. Vaqtinchalik muammo: Internet aloqangizda yoki bizning serverlarimizda vaqtinchalik muammo yuzaga kelgan bo'lishi mumkin."
+  },
+  "ServerError": {
+    "errorText": "Oops! Something went wrong. There is a problem with server :(",
+    "metaTitleError": "server xatoligi"
+  },
+  "ProductPage": {
+    "title": "Mahsulotlar",
+    "notFoundProducts":"Mahsulot mavjud emas"
+  },
+  "SearchProducts":{
+    "searchByName":"Nomi",
+    "searchByCategory":"Kategoriyasi",
+    "search":"Qidirish"
+  },
+  "Card": {
+    "detail-link": "Batafsil",
+    "add-to-cart":"Savatga"
+  },
+  "log-out": "Chiqish"
+}

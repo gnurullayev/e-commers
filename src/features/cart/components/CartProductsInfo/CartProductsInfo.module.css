@@ -1,0 +1,11 @@
+.cart_product_info {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 20px;
+}
+
+.product_list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

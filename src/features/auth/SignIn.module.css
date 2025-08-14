@@ -1,0 +1,168 @@
+.auth_login__inner {
+  display: grid;
+  place-items: center;
+  padding: 50px 0;
+  min-height: calc(100vh - 89px);
+}
+
+.form_container {
+  width: 364px;
+  padding: 26px 30px 30px 30px;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.1);
+  text-align: start;
+}
+
+.auth_login__title {
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.auth_login__text {
+  display: block;
+  margin-bottom: 30px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+.auth_login__forgot {
+  display: block;
+  color: #f00;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.form_item {
+  margin-bottom: 30px !important;
+}
+
+.form_item_end {
+  margin-bottom: 10px !important;
+}
+
+.auth_input {
+  height: 40px !important;
+  border: 1px solid #322e83 !important;
+}
+
+.auth_input input::placeholder {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.auth_login__btn {
+  display: block;
+  margin-top: 20px !important;
+  width: 100%;
+  max-width: 304px !important;
+  height: 40px !important;
+  border-radius: 10px !important;
+  background-color: #322e83 !important;
+  color: #fff;
+  font-size: 16px;
+}
+
+.auth_login__btn:disabled {
+  color: #fff !important;
+  background: #322e83;
+  opacity: 0.77;
+}
+
+.auth_text_list {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.auth_text_item {
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.auth_signup_text {
+  margin-top: 20px;
+  color: #322e84;
+  font-size: 12px;
+  text-align: center;
+}
+
+.auth_signup {
+  padding-left: 5px;
+  color: #322e84;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.registration_checkbox__container {
+  margin-top: 20px;
+  text-align: start;
+}
+.registration_checkbox__txt {
+  padding-left: 8px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: -0.14px;
+  opacity: 0.77;
+}
+
+.registration_checkbox__txt a {
+  display: inline-block;
+  color: #615ea0;
+  text-decoration: none;
+}
+
+@media (max-width: 425px) {
+  .form_inner {
+    width: 100%;
+    max-width: 576px;
+  }
+
+  .form_container {
+    width: 100%;
+    max-width: 576px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .form_container {
+    padding: 20px;
+  }
+
+  .auth_login__title {
+    margin-bottom: 0px;
+    font-size: 16px;
+  }
+
+  .auth_login__text {
+    margin-bottom: 20px;
+    font-size: 10px;
+  }
+
+  .form_item {
+    margin-bottom: 10px !important;
+  }
+
+  .auth_input input::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .auth_text_item {
+    margin-bottom: 2px;
+  }
+
+  .registration_checkbox__container {
+    margin-top: 10px;
+  }
+}

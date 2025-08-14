@@ -1,0 +1,14 @@
+.main {
+  min-height: calc(100vh - 92px);
+  background-color: #fff;
+  background-image: url("../../../../assets/images/auth-layout-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+}
+
+@media (max-width: 705px) {
+  .main {
+    background-size: cover;
+  }
+}

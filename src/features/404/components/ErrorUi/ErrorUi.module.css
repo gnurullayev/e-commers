@@ -1,0 +1,92 @@
+
+.svg{
+    margin-top: 13px;
+    width: 100%;
+    object-fit: cover;
+}
+.inner{
+    margin-top: 40px;
+    max-width: 624px;
+    text-align: center;
+}
+.preTitle{
+    font-size: 128px;
+    font-weight: 900;
+    line-height: 180px;
+    letter-spacing: 40px;
+}
+.title{
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: "Arial";
+
+}
+.text{
+    font-size: 16px;
+    font-family: "Arial";
+    line-height: 18px;
+}
+.btn{
+    width: 168px;
+    height: 40px;
+    border: 1px solid rgba(50, 46, 131, 1);
+
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+
+    margin: 50px 0;
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter";
+    line-height: 19px;
+}
+@media screen and (max-width: 768px) {
+    .svg{
+        height: 200px;
+    }
+    .preTitle{
+        font-size: 96px;
+        font-weight: 800;
+        line-height: 117px;
+    }
+    .title{
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 38px;
+
+    }
+    .text{
+        margin-top: 10px;
+        line-height: 20px;
+    }
+
+}
+@media screen and (max-width: 425px) {
+    .svg{
+        height: 150px;
+    }
+
+    .preTitle{
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 48px;
+        font-family: "Montserrat";
+        letter-spacing: 10px;
+    }
+    .title{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+
+    }
+    .text{
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 10px;
+        line-height: 20px;
+    }
+}
+
+
