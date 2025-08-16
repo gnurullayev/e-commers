@@ -1,25 +1,8 @@
 /** @type {import('next').NextConfig} */
 const path = require("path");
-const CopyPlugin = require("copy-webpack-plugin");
 
 const nextConfig = {
   reactStrictMode: true,
-  webpack: (config, { webpack }) => {
-    config.resolve.alias.canvas = false;
-
-    config.plugins.push(
-      new CopyPlugin({
-        patterns: [
-          {
-            from: "node_modules/leaflet/dist/images",
-            to: path.resolve(__dirname, "public", "leaflet", "images"),
-          },
-        ],
-      })
-    );
-
-    return config;
-  },
   transpilePackages: [
     "@ant-design",
     "@rc-component",
@@ -69,19 +52,7 @@ module.exports = {
   images: {
     remotePatterns: [
       {
-        hostname: "api.infocom.uz",
-      },
-      {
-        hostname: "infokom.napaautomotive.uz",
-      },
-      {
-        hostname: "176.96.243.40",
-      },
-      {
-        hostname: "127.0.0.1",
-      },
-      {
-        hostname: "via.placeholder.com",
+        hostname: "encrypted-tbn0.gstatic.com",
       },
     ],
   },

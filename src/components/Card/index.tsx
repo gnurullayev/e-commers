@@ -39,6 +39,8 @@ const Card: FC<ICardType> = ({ data, path }) => {
           src={
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCjJw75JbiFxbVI5MSHdJxR1sr0eMhYbA8XQ&s"
           }
+          width={100}
+          height={100}
         />
       }
       className={styles.card}

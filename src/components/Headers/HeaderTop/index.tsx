@@ -1,17 +1,23 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Search, UserIcon } from "@/assets/icons";
+import { UserIcon } from "@/assets/icons";
 import styles from "./HeaderTop.module.css";
 import { routes } from "@/constants/routes";
 import { useSession } from "next-auth/react";
 import { LanguageDropdown } from "@/components";
 import { useTranslations } from "next-intl";
+import { ShoppingCartOutlined } from "@ant-design/icons";
+import { useSelector } from "react-redux";
+import { RootState } from "@/store";
 
 const HeaderTop = () => {
   const { data } = useSession();
   const t = useTranslations("Header");
   const userImage = data?.user?.picture ? data?.user?.picture : UserIcon;
+  const cartProductCount = useSelector(
+    (state: RootState) => state.products.cartProducts?.length
+  );
 
   return (
     <div className={styles.header}>
@@ -24,6 +30,12 @@ const HeaderTop = () => {
           </div>
 
           <div className={styles.header_end}>
+            <Link href={routes.CART} className={styles.header_cart}>
+              <ShoppingCartOutlined />
+              {cartProductCount > 0 && (
+                <span className={styles.product_count}>{cartProductCount}</span>
+              )}
+            </Link>
             <LanguageDropdown isAuth={true} />
 
             {data ? (

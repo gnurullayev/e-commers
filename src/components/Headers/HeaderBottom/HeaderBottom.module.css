@@ -1,14 +1,43 @@
 .subheader {
-  height: 78px;
+  height: auto;
   background-color: #fff;
   border-bottom: 1px solid #d9d9d9;
   display: none;
+  margin-bottom: 20px;
 }
 
 .subheader_inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.header_cart {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  background-color: #e4e4e4;
+  border-radius: 20px;
+}
+
+.header_cart svg {
+  width: 20px;
+  height: 20px;
+}
+
+.product_count {
+  position: absolute;
+  top: -3px;
+  right: 0px;
+  display: inline-block;
+  padding: 2px 5px;
+  font-size: 10px;
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
 }
 
 .logo_link {
@@ -107,9 +136,5 @@
 @media (max-width: 576px) {
   .list_tablet_item_lenguage {
     display: none;
-  }
-
-  .subheader {
-    height: 60px;
   }
 }

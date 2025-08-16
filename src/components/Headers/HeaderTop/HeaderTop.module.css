@@ -2,6 +2,7 @@
   height: 43px;
   background-color: #fff;
   padding: 6px 0 5px 0;
+  margin-bottom: 20px;
 }
 
 .header_inner {
@@ -43,6 +44,34 @@
   display: flex;
   align-items: center;
   gap: 24px;
+}
+
+.header_cart {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  background-color: #e4e4e4;
+  border-radius: 20px;
+}
+
+.header_cart svg {
+  width: 20px;
+  height: 20px;
+}
+
+.product_count {
+  position: absolute;
+  top: -3px;
+  right: 0px;
+  display: inline-block;
+  padding: 2px 5px;
+  font-size: 10px;
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
 }
 
 .header_end_login {
